@@ -6,12 +6,12 @@ public class Main {
         post.patronymic = "Иванович";
         post.phone = "8(800)555-35-35";
         post.surname = "Иванов";
-        post.subscription = "true";
+        post.subscription = true;
 
         post.birthday = new FormDate();
-        post.birthday.day = "18";
-        post.birthday.month = "9";
-        post.birthday.year = "2000";
+        post.birthday.day = 18;
+        post.birthday.month = 9;
+        post.birthday.year = 2000;
     }
 
 
